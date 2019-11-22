@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
 
-import expand from '.././../../../../assets/icons/zoom-in.svg';
-import reduce from '.././../../../../assets/icons/zoom-out.svg';
-import full from '.././../../../../assets/icons/full-screen.svg';
-import next from '.././../../../../assets/icons/next.svg';
-import previous from '.././../../../../assets/icons/previous.svg';
+import expand from './../../../Assets/icons/zoom-in.svg';
+import reduce from './../../../Assets/icons/zoom-out.svg';
+import full from './../../../Assets/icons/full-screen.svg';
+import next from './../../../Assets/icons/next.svg';
+import previous from './../../../Assets/icons/previous.svg';
 
 export const BottomNavigator = ({ ampliar, expandir, reducir, pages, scale, nextPage, previousPage, index }) => {
     return (

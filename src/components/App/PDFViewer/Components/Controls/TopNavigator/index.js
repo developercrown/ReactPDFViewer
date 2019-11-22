@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 
-import find from '.././../../../../assets/icons/find.svg';
-import refresh from '.././../../../../assets/icons/refresh.svg';
-import minimize from '.././../../../../assets/icons/minimize.svg';
+import find from "./../../../Assets/icons/find.svg";
+import refresh from "./../../../Assets/icons/refresh.svg";
+import minimize from "./../../../Assets/icons/minimize.svg";
 
 export const TopNavigator = () => {
     return (
