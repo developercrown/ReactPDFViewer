@@ -1,0 +1,65 @@
+.DevCrownViewer-controls-bottom {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  z-index: 100;
+  padding: 10px;
+  bottom: 0;
+}
+
+.DevCrownViewer-controls-bottom .viewer-label {
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  width: fit-content;
+  margin-right: 10px;
+  opacity: 0.5;
+  font-size: 10px;
+}
+
+.DevCrownViewer-controls-bottom .viewer-button {
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  outline: none;
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  margin-right: 10px;
+  cursor: pointer;  
+  opacity: 0.8;
+}
+
+
+.DevCrownViewer-controls-bottom .viewer-button img {
+  height: 100%;
+}
+
+.DevCrownViewer-controls-bottom .viewer-button.small{
+  width: 32px;
+  height: 32px;
+}
+
+.DevCrownViewer-controls-bottom .viewer-button:hover {
+  background: rgba(255, 255, 255, 1);
+  filter: invert(1);
+}
+
+.DevCrownViewer-controls-bottom .viewer-button:active {
+  background: rgba(0, 0, 0, .1);
+  filter: invert(0);
+}
+
+
+.DevCrownViewer-controls-bottom .viewer-button .left {
+  margin-left: 20px;
+  background: red;
+}
+
+.DevCrownViewer-controls-bottom .viewer-button .right {
+  background: blue;
+}

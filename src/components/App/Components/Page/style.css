@@ -1,0 +1,8 @@
+.pdf-page {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  background-clip: content-box;
+  background-color: white;
+}
