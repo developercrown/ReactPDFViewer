@@ -50,7 +50,7 @@ const App = () => {
 
   const previousPage = () => {
     if (!statusAction) {
-      console.log("cambiando a pagina anterior");
+      // console.log("cambiando a pagina anterior");
       const newIndex = currentPageIndex - 1;
       if (newIndex > 0) {
         setCurrentPageIndex(newIndex);

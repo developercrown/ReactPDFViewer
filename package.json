@@ -10,7 +10,7 @@
   "private": true,
   "dependencies": {
     "node-sass": "^4.13.0",
-    "pdfjs-dist": "^2.0.207",
+    "pdfjs-dist": "^2.2.228",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
